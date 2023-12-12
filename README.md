@@ -1,3 +1,6 @@
+https://github.com/academind/react-typescript-course-resources
+https://www.udemy.com/course/react-typescript-the-practical-guide/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
