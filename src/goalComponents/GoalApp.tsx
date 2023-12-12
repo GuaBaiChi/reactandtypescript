@@ -1,9 +1,12 @@
-import Header from "./components/Header";
-import goalsImage from "./assets/goals.jpg";
 import { useState } from "react";
-import CourseGoalList from './components/CourseGoalList'
-import CourseGoal from "./components/CourseGoal";
-import NewGoal from "./components/NewGoal";
+
+import Header from "./Header";
+import CourseGoalList from './CourseGoalList'
+import CourseGoal from "./CourseGoal";
+import NewGoal from "./NewGoal";
+
+import './GoalApp.css';
+import goalsImage from "../assets/goals.jpg";
 
 export type CourseGoal = {
   title: string;
@@ -11,7 +14,7 @@ export type CourseGoal = {
   id: number;
 }
 
-export default function App() {
+export default function GoalApp() {
   const [goals, setGoals] = useState<CourseGoal[]>([])
 
   function handleAddGoal(goal: string, summary: string) {

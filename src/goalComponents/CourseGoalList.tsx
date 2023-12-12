@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import CourseGoal from './CourseGoal'
-import { CourseGoal as CGoal } from '../App'
+import { CourseGoal as CGoal } from './GoalApp'
 import InfoBox from './InfoBox';
 
 type CourseGoalListProps = {
