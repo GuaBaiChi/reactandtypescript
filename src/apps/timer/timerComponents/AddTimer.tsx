@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import Button from './UI/Button';
 import Form, { FormHandle } from './UI/Form';
 import Input from './UI/Input';
-import { useTimersContext } from './store/timers-context';
+import { useTimersContext } from '../store/timers-context';
 
 export default function AddTimer() {
   const form = useRef<FormHandle>(null);

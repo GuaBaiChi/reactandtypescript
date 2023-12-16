@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-import Header from "./Header";
-import CourseGoalList from './CourseGoalList'
-import CourseGoal from "./CourseGoal";
-import NewGoal from "./NewGoal";
+import Header from "./goalComponents/Header";
+import CourseGoalList from './goalComponents/CourseGoalList'
+import CourseGoal from "./goalComponents/CourseGoal";
+import NewGoal from "./goalComponents/NewGoal";
 
 import './GoalApp.css';
-import goalsImage from "../assets/goals.jpg";
+import goalsImage from "./goalAssets/goals.jpg";
 
 export type CourseGoal = {
   title: string;

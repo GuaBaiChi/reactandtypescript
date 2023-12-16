@@ -1,5 +1,5 @@
 import Button from './UI/Button';
-import { useTimersContext } from './store/timers-context';
+import { useTimersContext } from '../store/timers-context';
 
 export default function Header() {
   const timersCtx = useTimersContext();
