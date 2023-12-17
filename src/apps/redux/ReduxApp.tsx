@@ -3,6 +3,8 @@ import Shop from './reduxComponents/Shop';
 import Product from './reduxComponents/Product';
 import { DUMMY_PRODUCTS } from './dummy-products';
 
+import './ReduxApp.css';
+
 function ReduxApp() {
   return (
     <>
