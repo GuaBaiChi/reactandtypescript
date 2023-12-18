@@ -1,9 +1,9 @@
-import mochaOvercoat from './reduxComponents/assets/mocha-overcoat.jpg';
-import dreamGown from './reduxComponents/assets/dream-gown.jpg';
-import rainJacket from './reduxComponents/assets/rain-jacket.jpg';
-import merlotSuit from './reduxComponents/assets/merlot-suit.jpg';
-import moonlightDress from './reduxComponents/assets/moonlight-dress.jpg';
-import denimPioneer from './reduxComponents/assets/denim-pioneer.jpg';
+import mochaOvercoat from './assets/mocha-overcoat.jpg';
+import dreamGown from './assets/dream-gown.jpg';
+import rainJacket from './assets/rain-jacket.jpg';
+import merlotSuit from './assets/merlot-suit.jpg';
+import moonlightDress from './assets/moonlight-dress.jpg';
+import denimPioneer from './assets/denim-pioneer.jpg';
 
 
 
