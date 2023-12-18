@@ -5,6 +5,7 @@ import GoalApp from './apps/goal/GoalApp';
 import TimerApp from './apps/timer/TimerApp';
 import DataFetching from './apps/datafetching/DataFetching';
 import ReduxApp from './apps/redux/ReduxApp';
+import SessionsApp from './apps/sessions/SessionsApp';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,6 +15,7 @@ root.render(
     {/* <GoalApp /> */}
     {/* <TimerApp /> */}
     {/* <DataFetching /> */}
-    <ReduxApp />
+    {/* <ReduxApp /> */}
+    <SessionsApp />
   </div>
 );
