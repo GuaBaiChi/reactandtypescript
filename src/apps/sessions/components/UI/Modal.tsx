@@ -34,6 +34,7 @@ const Modal = forwardRef<ModalHandle, ModalProps>(function Modal(
       {children}
     </dialog>,
     document.getElementById('modal-root')!
+
   );
 });
 

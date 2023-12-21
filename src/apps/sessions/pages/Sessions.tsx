@@ -13,7 +13,6 @@ export default function SessionsPage() {
         </p>
       </header>
       <SessionsList sessions={SESSIONS} />
-      <div id="modal-root"></div>
     </main>
   );
 }
